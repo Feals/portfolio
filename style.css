@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/*Header */
+#banniere {
+    background: url('images/banniere_code.jpg') no-repeat;
+    margin-top: 0px;
+    width: 100%;
+    height: 50em;
+    background-size: cover;
+}
+
+nav {
+    padding-top: 2em;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+li {
+    list-style: none;
+    padding: 2em;
+
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+
+.logo_maison {
+    width: 1.3em;
+    height: 1.3em;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End Header */
+
+/*Compétences */
+
+main {
+    display: flex;
+    border-bottom: 5px solid black;
+}
+
+#skills {
+
+    border-right: 5px solid black;
+    width: 20em;
+}
+
+#skill_developper {
+    padding-left: 4em;
+}
+
+main,
+#soft_skill {
+    border-top: 5px solid black;
+
+}
+
+section h2,
+h3,
+p {
+    padding-left: 2em;
+}
